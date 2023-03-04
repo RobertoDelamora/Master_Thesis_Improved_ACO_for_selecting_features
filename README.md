@@ -1,7 +1,7 @@
 # Master_Thesis_Improved_ACO_for_selecting_features
  Trabalho de pesquisa relacionado à dissertação de Mestrado do PROFICAM realizado no ITV/UFOP
 
-# ALGORITMO ACO RANK BASED APRIMORADO PARA USO NA SELEÇÃO DE VARIÁVEIS EM MODELOS DE CLASSIFICAÇÃO
+## ALGORITMO ACO RANK BASED APRIMORADO PARA USO NA SELEÇÃO DE VARIÁVEIS EM MODELOS DE CLASSIFICAÇÃO
 
 Repositório referente à pesquisa entitulada acima. Programa: Mestrado Profissional em Instrumentação, Controle e Automação de Processos de Mineração - PROFICAM. Instituições: UFOP / Instituto Tecnológico VALE - ITV.
 
@@ -14,13 +14,13 @@ Os algoritmos de aprendizado de máquina (machine learning) são bastante eficie
 
 ## Principais trabalhos de referência utilizados na pesquisa:
 
-**WFACOFS - Wrapper Filter based Ant Colony Optmization for Feature Selection.** - A wrapper-filter feature selection technique based on ant colony optimization. Arquivo .pdf disponível na pasta de Artigos. [Acesso ao documento original][https://link.springer.com/article/10.1007/s00521-019-04171-3].
+**WFACOFS - Wrapper Filter based Ant Colony Optmization for Feature Selection.** - A wrapper-filter feature selection technique based on ant colony optimization. Arquivo .pdf disponível na pasta de Artigos. Link: [https://link.springer.com/article/10.1007/s00521-019-04171-3].
 
 **ACO Rank-based - A New Rank Based Version of the Ant System - A Computational Study.** - Arquivo .pdf disponível na pasta de Artigos.
 
-**Phik - A new correlation coefficient between categorical, ordinal and interval variables with Pearson characteristics** - Arquivo .pdf disponível na pasta de Artigos. [Acesso ao documento original][https://www.sciencedirect.com/science/article/pii/S0167947320301341].
+**Phik - A new correlation coefficient between categorical, ordinal and interval variables with Pearson characteristics** - Arquivo .pdf disponível na pasta de Artigos. Link: [https://www.sciencedirect.com/science/article/pii/S0167947320301341].
 
-**Seleção de atributos baseado no algoritmo de otimização por colonia de formigas para processos mineradores** - Arquivo .pdf disponível na pasta de Artigos. [Acesso ao documento original][https://repositorio.ufop.br/handle/123456789/14471].
+**Seleção de atributos baseado no algoritmo de otimização por colonia de formigas para processos mineradores** - Arquivo .pdf disponível na pasta de Artigos. Link: [https://repositorio.ufop.br/handle/123456789/14471].
 
 
 ## Proposta:
@@ -30,6 +30,20 @@ O projeto de pesquisa tem como objetivo geral aprimorar a meta heurística Rank-
 - Fluxograma do algoritmo:
 
 ![Fluxograma](img/Fluxo.jpg)
+
+
+## Bases de dados estudadas:
+
+Para a avaliação do desempenho do algoritmo proposto (ACOFSrank)  em rela;áo ao WFACOFS, foram selecionadas as mesmas bases de dados utilizadas no WFACOFS e que ainda encontravam-se
+disponíveis. Estas bases são disponibilizadas através do repositório UCI e frequentemente citadas na literatura para avaliação de modelos de aprendizado de máquina.
+
+> Breast Cancer
+> Wine
+> Ionosphere
+> Soybean Small
+> Hill Valley (without noise training)
+> Arrythmia
+> Madelon (training base)
 
 
 
