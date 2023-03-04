@@ -37,13 +37,13 @@ O projeto de pesquisa tem como objetivo geral aprimorar a meta heurística Rank-
 Para a avaliação do desempenho do algoritmo proposto (ACOFSrank)  em rela;áo ao WFACOFS, foram selecionadas as mesmas bases de dados utilizadas no WFACOFS e que ainda encontravam-se
 disponíveis. Estas bases são disponibilizadas através do repositório UCI e frequentemente citadas na literatura para avaliação de modelos de aprendizado de máquina.
 
-> Breast Cancer
-> Wine
-> Ionosphere
-> Soybean Small
-> Hill Valley (without noise training)
-> Arrythmia
-> Madelon (training base)
+- Breast Cancer
+- Wine
+- Ionosphere
+- Soybean Small
+- Hill Valley (without noise training)
+- Arrythmia
+- Madelon (training base)
 
 
 
