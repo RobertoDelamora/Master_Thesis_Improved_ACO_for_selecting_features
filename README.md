@@ -44,4 +44,3 @@ disponíveis. Estas bases são disponibilizadas através do repositório UCI e f
 - Hill Valley (without noise training)
 - Arrythmia
 - Madelon (training base)
-
