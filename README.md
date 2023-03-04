@@ -45,16 +45,3 @@ disponíveis. Estas bases são disponibilizadas através do repositório UCI e f
 - Arrythmia
 - Madelon (training base)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
