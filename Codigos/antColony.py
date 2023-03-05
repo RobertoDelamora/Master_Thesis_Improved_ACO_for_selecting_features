@@ -1,4 +1,10 @@
 # -*- coding: utf-8 -*-
+"""
+Authors: Roberto Alexandre Delamora
+E-mail: delamora@gmail.com
+Date and hour: 02-02-2023 09:30:00 AM
+"""
+
 
 from ant import Ant
 import numpy as np
@@ -7,7 +13,7 @@ import random
 from file import FileTreatment
 from random import randrange
 
-pd.options.mode.chained_assignment = None  # default='warn'
+pd.options.mode.chained_assignment = None
 import warnings
 warnings.filterwarnings("ignore", category=DeprecationWarning)
 warnings.filterwarnings("ignore", category=UserWarning)
@@ -70,8 +76,6 @@ class AntColony(object):
         # Identifica qual é o arquivo da base de dados
         file.read_base()
 
-        #xData, yData = file.encoder(xData, yData)
-        
         # Valida variáveis categóricas e transforma em numéricas através da função Encoder()
         # Faz split do dataset separando variáveis independentes de target
         xData, yData = file.encoder()

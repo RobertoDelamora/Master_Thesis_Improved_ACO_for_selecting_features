@@ -1,11 +1,16 @@
 # -*- coding: utf-8 -*-
+"""
+Authors: Roberto Alexandre Delamora
+E-mail: delamora@gmail.com
+Date and hour: 02-02-2023 09:30:00 AM
+"""
+
 
 import argparse
 import pandas as pd
 import time
 import gc
 from antColony import AntColony
-#import sys
 
 import warnings
 warnings.filterwarnings("ignore", category=DeprecationWarning)
@@ -32,13 +37,10 @@ if __name__ == '__main__':
     # Define classificadores usados no processo de cálculo da acurácia (parte Wrapper do algoritmo)
     classifier = {1: 'KNN', 2: 'MLP', 3: 'XGBoost', 4: 'Random Forest'}
 
-    #bases = ['wine', 'soybean-small', 'ionosphere', 'breast-cancer', 'hill_valley_without_noise_training', 'arrhythmia', 'madelon_train']
-    #itera = [10, 20, 30]
-    #num_class = [1]
-    bases = ['wine']
-    itera = [30]
-    num_class = [1]
-    loops = 1
+    bases = ['wine', 'soybean-small', 'ionosphere', 'breast-cancer', 'hill_valley_without_noise_training', 'arrhythmia', 'madelon_train']
+    itera = [10, 20, 30]
+    num_class = [1, 2, 3, 4]
+    loops = 3
 
 
     # Cria dataframe com informação sobre lista de variaveis e acurácia

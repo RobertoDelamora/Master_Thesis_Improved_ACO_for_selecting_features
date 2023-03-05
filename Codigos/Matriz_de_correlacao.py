@@ -1,6 +1,12 @@
-'''
+# -*- coding: utf-8 -*-
+"""
+Authors: Roberto Alexandre Delamora
+E-mail: delamora@gmail.com
+Date and hour: 02-02-2023 09:30:00 AM
+
 Este código é utilizado para criação da matriz de correlação das bases sob estudo
-'''
+"""
+
 
 import pandas as pd
 import numpy as np
@@ -181,4 +187,3 @@ print('Arquivo gerado = ', base_name+'_distances.csv')
 # Ao final, deverão existir 2 novos arquivos na pasta data:
 # 1) A base de dados tratada e pronta para uso pelo algoritmo ACO
 # 2) A matriz de correlação
-

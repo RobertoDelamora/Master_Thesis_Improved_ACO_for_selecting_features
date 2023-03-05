@@ -1,6 +1,10 @@
 # -*- coding: utf-8 -*-
+"""
+Authors: Roberto Alexandre Delamora
+E-mail: delamora@gmail.com
+Date and hour: 02-02-2023 09:30:00 AM
+"""
 
-#import numpy as np
 import pandas as pd
 import numpy as np
 from math import exp
